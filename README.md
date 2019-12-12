@@ -7,7 +7,7 @@ The function must fulfill the following criteria to qualify you for the code jam
 ---------------------------------------------------------------------------------
 
   - Must return an instance of `datetime.datetime` that is equivalent to the given ISO-8601 timestamp
-  - Must parse dates in the format `YYYY-MM-DD` and `YYYY-MM`
+  - Must parse dates in the format `YYYY-MM-DD`
   - Must combined datetimes in the format `<date>T<time>`, where `<time>` can be one of:
      - `hh:mm:ss`
      - `hh:mm`
