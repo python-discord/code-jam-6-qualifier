@@ -2,6 +2,7 @@
 
 - **Deadline:** 2020-01-10 12:00 UTC
 - **Submission form:** https://forms.gle/MzzZs9mFMKe2bwP77
+- **Theme suggestions:** https://forms.gle/ejkha9bF6kKjnRJJA
 
 The qualifier task for the upcoming Winter Code Jam is to write an [ISO-8601 timestamp](https://www.iso.org/iso-8601-date-and-time-format.html) parser function. We have provided you with a stub function in [qualifier.py](./qualifier.py) and it is your job to write the function body. To qualify for the code jam, your function needs to pass all of the basic requirements listed below. Additional points will be awarded if your function also passes any of the advanced requirements.
 
