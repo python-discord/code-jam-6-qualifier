@@ -27,7 +27,12 @@ While you are allowed to rewrite the docstring of the function, please make sure
     - Timestamps with a timezone are relative to the UTC
       - Supported formats are `Z`, `±hh:mm`, `±hhmm` and `±hh`
 
+### Code Style & Readability
+While not a hard requirement, we will take code style and readability into account when judging submissions for both the qualifier as well as the code jam itself. Please try to keep your code readable for yourself and others, and try to comply with [PEP 8](https://www.python.org/dev/peps/pep-0008/). To check if your code follows PEP 8, we will use a tool called [flake8](http://flake8.pycqa.org/en/latest/) configured with a maximum line length of 100. If you want to run flake8 yourself, you can use `flake8 --max-line-length=100 /path/to/code` to run it with the same settings as we will use. (Note: you will need to [install flake8](http://flake8.pycqa.org/en/latest/index.html#installation) first.)
+
 ## Examples
+Here are a few examples of a `parse_iso8601` function in action. Obviously, these examples do not cover all of the requirements, so make sure to test your function comprehensively with test cases of your own before submitting it.
+
 ```py
 >>> parse_iso8601("2019-12-16")
 datetime.datetime(2019, 12, 16, 0, 0)
