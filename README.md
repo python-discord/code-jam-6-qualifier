@@ -28,16 +28,11 @@ While you are allowed to rewrite the docstring of the function, please make sure
       - Supported formats are `Z`, `±hh:mm`, `±hhmm` and `±hh`
 
 ## Examples
-To pass all basic requirements, your function should behave the same as in these examples:
 ```py
 >>> parse_iso8601("2019-12-16")
 datetime.datetime(2019, 12, 16, 0, 0)
 >>> parse_iso8601("2017-01-08T12")
 datetime.datetime(2017, 1, 8, 12, 0)
->>> parse_iso8601("2008-12-03T08:15")
-datetime.datetime(2008, 12, 3, 8, 15)
->>> parse_iso8601("1991-02-20T11:23:58")
-datetime.datetime(1991, 2, 20, 11, 23, 58)
 >>> parse_iso8601("2000-10-16T09:23:61")
 Traceback (most recent call last):
   File "<stdin>", line 7, in parse_iso8601
