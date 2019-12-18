@@ -48,4 +48,4 @@ ValueError: Invalid value for seconds
 ## Notes
 - Due to the limitations of Python's `datetime` module, some dates specified in the ISO-8601 standard are impossible to be represented as a `datetime.datetime`. Therefore, those formats have not been included in the challenge.
 
-- We are aware that `datetime.datetime` has a built-in classmethod, `datetime.fromisostring`, to parse ISO-8601 timestamps. Since it is your task to write a parser, using the built-in parser will lead to you not passing the qualifier.
+- We are aware that `datetime.datetime` has a built-in classmethod, `datetime.fromisoformat`, to parse ISO-8601 timestamps. Since it is your task to write a parser, using the built-in parser will lead to you not passing the qualifier.
