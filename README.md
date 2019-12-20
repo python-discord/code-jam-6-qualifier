@@ -49,3 +49,5 @@ ValueError: Invalid value for seconds
 - Due to the limitations of Python's `datetime` module, some dates specified in the ISO-8601 standard are impossible to be represented as a `datetime.datetime`. Therefore, those formats have not been included in the challenge.
 
 - We are aware that `datetime.datetime` has a built-in classmethod, `datetime.fromisoformat`, to parse ISO-8601 timestamps. Since it is your task to write a parser, using the built-in parser will lead to you not passing the qualifier.
+
+- **Please note that the qualifier task is supposed to be an individual challenge.** This means that you should discuss (parts of) your solution to the qualifier task in public (including our server) and that you should try to solve it individually. Obviously, this does not mean that you can't do research or ask questions about the Python concepts you're using to solve the qualifier, but try to use general examples when you post code during this process.
