@@ -24,7 +24,7 @@ While you are allowed to rewrite the docstring of the function, please make sure
   - Support fractional seconds `hh:mm:ss.sss`
   - Support the truncated time formats `hhmmss.ssss`, `hhmmss`, `hhmm`
   - [Support time zones](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators)
-    - Timestamps without a timezone are local time
+    - Timestamps without a timezone are local time (i.e., the `datetime` object should not have `tzinfo`)
     - Timestamps with a timezone are relative to the UTC
       - Supported formats are `Z`, `±hh:mm`, `±hhmm` and `±hh`
 
