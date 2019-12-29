@@ -4,7 +4,9 @@
 - **Submission form:** https://forms.gle/MzzZs9mFMKe2bwP77
 - **Theme suggestions:** https://forms.gle/ejkha9bF6kKjnRJJA
 
-The qualifier task for the upcoming Winter Code Jam is to write an [ISO-8601 timestamp](https://www.iso.org/iso-8601-date-and-time-format.html) parser function. We have provided you with a stub function in [qualifier.py](./qualifier.py) and it is your job to write the function body. To qualify for the code jam, your function needs to pass all of the basic requirements listed below. Additional points will be awarded if your function also passes any of the advanced requirements.
+This qualifier task for the upcoming Winter Code Jam is inspired by the [ISO-8601 timestamp](https://www.iso.org/iso-8601-date-and-time-format.html). It will be your task to write a function that's able to parse some of the formats described by this standard. **Exactly which formats your function has to support is described below** in the requirements sections.
+
+We have provided you with a stub function in [qualifier.py](./qualifier.py) and it is your job to write the function body. To qualify for the code jam, your function needs to pass all of the basic requirements listed below. Additional points will be awarded if your function also passes any of the advanced requirements.
 
 **You must write all the parsing from scratch. Using any kind of datestring parsing feature in your solution, either from a third party or a standard library module, will disqualify you from joining the Code Jam.**
 
@@ -25,10 +27,27 @@ While you are allowed to rewrite the docstring of the function, please make sure
   - Support the truncated time formats `hhmmss.ssss`, `hhmmss`, `hhmm`
   - [Support time zones](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators)
     - Timestamps without a timezone should return a naive `datetime.datetime` object
-    - Timestamps with a timezone are relative to the UTC
+    - Timestamps with a timezone are relative to the UTC and should return an aware `datetime.datetime` object
       - Supported formats are `Z`, `±hh:mm`, `±hhmm` and `±hh`
 
-### Code Style & Readability
+## Test Suite
+To help you get started, we've written a test suite and test runner that will test your function for compliance with the **Basic Requirements** listed above. If you want to test your function against the advanced requirements, you will have to write your own test cases and add them to the stub class `Part002_AdvancedRequirements` in `test_qualifier.py`.
+
+Even if you're not planning to run the test suite, you may want to have a look at the `test_qualifier.py` file, since the test cases also serve as examples of the strings we are going to use to test your function.
+
+### Running of the Test Suite
+You should be able to run the test suite with most modern versions of Python. (We have tested it with Python 3.6+, but it may also work with Python 3.5.)
+
+To run the test suite, you should first copy the **entire** `alternative-1-datetime-parsing` directory, including the `testsuite` subdirectory, to your local PC. After you've done that, follow these steps:
+
+1. Add your code, including your `parse_iso8601` main function, to `qualifier.py`
+2. Open a terminal/command window and navigate to the root folder (the folder containing `qualifier.py`)
+3. Run the test suite with `python -m testsuite`
+    - You may have to replace `python` with the command you use to run Python from the command line.
+
+Once you pass all the basic requirements, the test suite will also run a benchmark on your function to see how fast it is.
+
+## Code Style & Readability
 While not a hard requirement, we will take code style and readability into account when judging submissions for both the qualifier as well as the code jam itself. Please try to keep your code readable for yourself and others, and try to comply with [PEP 8](https://www.python.org/dev/peps/pep-0008/). To check if your code follows PEP 8, we will use a tool called [flake8](http://flake8.pycqa.org/en/latest/) configured with a maximum line length of 100. If you want to run flake8 yourself, you can use `flake8 --max-line-length=100 /path/to/code` to run it with the same settings as we will use. (Note: you will need to [install flake8](http://flake8.pycqa.org/en/latest/index.html#installation) first.)
 
 ## Examples
