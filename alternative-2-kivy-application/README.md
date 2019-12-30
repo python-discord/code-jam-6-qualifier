@@ -4,7 +4,7 @@
 - **Submission form:** https://forms.gle/MzzZs9mFMKe2bwP77
 - **Theme suggestions:** https://forms.gle/ejkha9bF6kKjnRJJA
 
-This qualifier task for the upcoming [Winter Code Jam](https://pythondiscord.com/pages/code-jams/code-jam-6/) is to write a Kivy application in which the end user can move around an image on screen. Use [the `python_discord_logo.png`](python_discord_logo.png) image as the default image, so we can run your code using the same image you've used while creating your application.
+This qualifier task for the upcoming [Winter Code Jam](https://pythondiscord.com/pages/code-jams/code-jam-6/) is to write a Kivy application in which the end user can move around an image on screen. Use the [`python_discord_logo.png`](python_discord_logo.png) image in this subdirectory of the qualifier repository as the default image, so we can run your code using the same image you've used while creating your application.
 
 To get you started, we've set up a very basic "Hello World!" app in the [`qualifier.py`](qualifier.py) file that you can use as a base for your app.
 
