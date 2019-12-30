@@ -54,7 +54,7 @@ class Application(App):
         You can also delete this method and rely on the default behavior
         of loading a kv file in the same directory, named like the
         application class, but lower case. here, it would be
-        `application.kv.
+        application.kv.
         """
 
         return Builder.load_string(KV_RULES)
