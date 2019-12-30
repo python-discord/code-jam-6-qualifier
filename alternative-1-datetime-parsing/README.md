@@ -23,12 +23,14 @@ While you are allowed to rewrite the docstring of the function, please make sure
 
 ### Advanced Requirements (optional, for extra points)
   - Support the truncated date format `YYYYMMDD`
-  - Support fractional seconds `hh:mm:ss.sss`
+  - Support fractional seconds with up to six decimals (e.g., `hh:mm:ss.sss`)
   - Support the truncated time formats `hhmmss.ssss`, `hhmmss`, `hhmm`
   - [Support time zones](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators)
     - Timestamps without a timezone should return a naive `datetime.datetime` object
     - Timestamps with a timezone are relative to the UTC and should return an aware `datetime.datetime` object
       - Supported formats are `Z`, `±hh:mm`, `±hhmm` and `±hh`
+
+**Note:** According to the ISO 8601 standard, if a string has both a date and a time part (`<date>T<time>`) both parts must use the same format (i.e., both parts must be truncated or non-truncated). We will only test your function with strings for which this restriction holds, but we will **not** deduct points if your function also allows for mixed representations.
 
 ## Test Suite
 To help you get started, we've written a test suite and test runner that will test your function for compliance with the **Basic Requirements** listed above. If you want to test your function against the advanced requirements, you will have to write your own test cases and add them to the stub class `Part002_AdvancedRequirements` in `test_qualifier.py`.
