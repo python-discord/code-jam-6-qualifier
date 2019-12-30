@@ -14,17 +14,19 @@ from kivy.lang import Builder
 # https://kivy.org/doc/stable/guide/lang.html
 
 # for an even shorter introduction…
-# basically widgets are declared nested by indentation, and properties
-# are similarly defined in the scope (indentation level) of the widget
-# they relate to. It also allows defining canvas (graphical)
-# instructions much in the same way as Widget.
+# Widgets are declared nested by indentation, and properties are
+# similarly defined in the scope (indentation level) of the widget they
+# apply to. It also allows defining canvas (graphical) instructions much
+# in the same way as widgets.
+
 # KVlang also allows declaring "rules" for widget classes, these rules
 # will similarly declare a tree of widget children, properties and
 # canvas instructions, that will be automatically applied to all
-# instances of these classes, these rules are declarede using the class
+# instances of these classes, these rules are declared using the class
 # name around pointy brackets, e.g: "<MyCustomLabel>:" would declare a
 # rule applied to all instances of the MyCustomLabel class (which you
 # could define as a subclass of kivy.uix.label.Label).
+
 # The string can contain at most one "root" rule, which is a rule
 # without <> around its name, this rule is treated differently, it
 # directly instantiates a widget of the class, and adds the declared
