@@ -29,4 +29,4 @@ While not a hard requirement, we will take code style and readability into accou
 ## Notes
 - **Please note that the qualifier task is supposed to be an individual challenge.** This means that you should not discuss (parts of) your solution to the qualifier task in public (including our server) and that you should try to solve it individually. Obviously, this does not mean that you can't do research or ask questions about the Python concepts you're using to solve the qualifier, but try to use general examples when you post code during this process.
 
-- Since you can only submit your code and no assets, use `logo_discord_256.png` as the default image. We'll make sure to run your code with that image available in the same directory as your script, so specify it using a relative path.
+- Since you can only submit your code and no assets, use `python_discord_logo.png` as the default image. We'll make sure to run your code with that image available in the same directory as your script, so specify it using a relative path.
