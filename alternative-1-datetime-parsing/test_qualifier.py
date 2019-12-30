@@ -128,7 +128,6 @@ class Part001_BasicRequirements(unittest.TestCase):
             "1999:10:02",  # `:` is not a valid separator for dates
             "2012 10 02",  # ` ` is not a valid separator
             "17-12-2019",  # DD-MM-YYYY is not an accepted format
-            "90-03-14",  # YEAR should have four characters
             "2019-1012",  # Combining the normal and truncated format is not allowed
             "201910-12",  # Combining the normal and truncated format is not allowed
 
