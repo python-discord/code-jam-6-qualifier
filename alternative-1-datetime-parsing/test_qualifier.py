@@ -110,7 +110,7 @@ class Part001_BasicRequirements(unittest.TestCase):
 
         self._run_test_cases(test_cases)
 
-    def test_003_rejects_invalid_datetime_stings(self) -> None:
+    def test_003_rejects_invalid_datetime_strings(self) -> None:
         """Parser raises ValueError for invalid datetime strings."""
         test_cases = (
             # Odd strings
