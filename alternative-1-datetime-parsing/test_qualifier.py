@@ -148,10 +148,10 @@ class Part001_BasicRequirements(unittest.TestCase):
             "2019-13-66T25:62:88",  # Invalid values for everything but the year
 
             # Incorrect form in the <time> part of the datetime string
-            "1677-09-03T12.31.05"  # `.` is not a valid separator for the <time> part
-            "1677-09-03T12-31-05"  # `-` is not a valid separator for the <time> part
-            "1677-09-03T12:3105"  # Combining the partial and truncated format is not allow
-            "1677-09-03T1231:05"  # Combining the partial and truncated format is not allow
+            "1677-09-03T12.31.05",  # `.` is not a valid separator for the <time> part
+            "1677-09-03T12-31-05",  # `-` is not a valid separator for the <time> part
+            "1677-09-03T12:3105",  # Combining the partial and truncated format is not allow
+            "1677-09-03T1231:05",  # Combining the partial and truncated format is not allow
         )
 
         for invalid_datestring in test_cases:
