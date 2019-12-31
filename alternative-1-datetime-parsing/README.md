@@ -38,7 +38,7 @@ To help you get started, we've written a test suite and test runner that will te
 Even if you're not planning to run the test suite, you may want to have a look at the `test_qualifier.py` file, since the test cases also serve as examples of the strings we are going to use to test your function.
 
 ### Running of the Test Suite
-You should be able to run the test suite with most modern versions of Python. (We have tested it with Python 3.6+, but it may also work with Python 3.5.)
+You should be able to run the test suite using Python 3.6+.
 
 To run the test suite, you should first copy the **entire** `alternative-1-datetime-parsing` directory, including the `testsuite` subdirectory, to your local PC. After you've done that, follow these steps:
 
