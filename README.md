@@ -1,9 +1,7 @@
 # Winter Code Jam 2020: Qualifier
 
-- **Deadline:** 2020-01-10 12:00 UTC
-- **Submission form:** https://forms.gle/MzzZs9mFMKe2bwP77
-- **Theme suggestions:** https://forms.gle/ejkha9bF6kKjnRJJA
 - **Code Jam information:** https://pythondiscord.com/pages/code-jams/code-jam-6/
+- **Sign-up form:** The sign-up period for the Winter Code Jam 2020 has ended and you can no longer sign-up for the event. If you want to participate in a Code Jam in the future, subscribe yourself to the announcements of our community to not miss an announcement about the Summer Code Jam! You can do this by using the `!subscribe` command in the #bot-commands channel.
 
 To qualify for the upcoming Winter Code Jam, you'll have to complete one of the two qualifier assignments we have prepared for you. You can **pick the task you want to complete yourself**. It does not matter which one you pick, so pick the task you like the most.
 
