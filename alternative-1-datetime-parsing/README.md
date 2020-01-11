@@ -1,8 +1,6 @@
 # Code Jam 6: Qualifier
 
-- **Deadline:** 2020-01-10 12:00 UTC
-- **Submission form:** https://forms.gle/MzzZs9mFMKe2bwP77
-- **Theme suggestions:** https://forms.gle/ejkha9bF6kKjnRJJA
+- The deadline to sign-up for the Winter Code Jam 2020 has passed; you can no longer sign up for the event. An [annotated example solution](solution/solution.py) has been added to the `solution/` subdirectory and we've released the rest of the test suite by adding the additional tests to [`test_qualifier.py`](test_qualifier.py).
 
 This qualifier task for the upcoming Winter Code Jam is inspired by the [ISO-8601 timestamp](https://www.iso.org/iso-8601-date-and-time-format.html). It will be your task to write a function that's able to parse some of the formats described by this standard. **Exactly which formats your function has to support is described below** in the requirements sections.
 
